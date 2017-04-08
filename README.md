@@ -1,12 +1,13 @@
 ## Summary
-An Express app that takes a matrix of integers:
+An Express API server that takes a matrix of integers:
+
 Ex:
 ```
 |314| 
 |159| 
 |265|
 ```
-And returns the minimum weight path through the matrix.
+And returns the minimum weighted path through the matrix.
 
 ## Prerequisites
 * Node.js
