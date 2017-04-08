@@ -1,0 +1,16 @@
+{
+  "name": "matrix_min_weight",
+  "version": "1.0.0",
+  "description": "Determine the least weighted path through a matrix of integers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js | ./node_modules/bunyan/bin/bunyan"
+  },
+  "author": "Kip Gebhardt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bunyan": "^1.8.10",
+    "express": "^4.15.2"
+  }
+}
