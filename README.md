@@ -24,3 +24,8 @@ npm start
 $ curl -H 'Content-type: application/json'  -d '[[3,100,4],[10,5,9],[12,2,6]]' http://localhost:8081/
 {"weight":10,"path":[3,5,2]}
 ```
+
+```
+$ curl http://localhost:8081/ping
+{"status":"OK","name":"matrix_min_weight","version":"1.0.0","pid":"_38642"}
+```
